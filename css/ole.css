@@ -1,15 +1,25 @@
-html {
-  color: #333;
-  display: table;
-  font-family: Helvetica, Arial, sans-serif;
-  height: 100%;
-  text-align: center;
-  width: 100%;
-  font-weight: 200; }
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+* {
+  margin: 0;
+  padding: 0;
+  color: white; }
 
-h1 {
-  font-size: 2em;
-  font-weight: 300;
-  letter-spacing: 3px; }
+.button1 {
+  background-color: #801014; }
 
-/*# sourceMappingURL=ole.css.map */
+.button2 {
+  background-color: #60721B; }
+
+.header-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin: 0; }
+  .header-buttons button {
+    padding: 0 3% 0 0;
+    border: none;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-weight: bold; }
+
+.main-header img {
+  max-width: 2%; }
