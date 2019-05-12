@@ -15,11 +15,24 @@
   justify-content: space-between;
   margin: 0; }
   .header-buttons button {
-    padding: 0 3% 0 0;
+    padding: 3% 18% 3% 18%;
     border: none;
     font-family: 'Raleway', sans-serif;
     text-align: center;
     font-weight: bold; }
 
-.main-header img {
-  max-width: 2%; }
+.main-header {
+  background-color: #F3F3F3;
+  padding-top: 5% 0 3% 0; }
+
+.logo {
+  width: 30%;
+  margin-left: 2%;
+  margin-top: 2%; }
+
+.burger-menu {
+  max-width: 10%;
+  margin-left: 55%; }
+
+footer hr {
+  width: 12em; }
