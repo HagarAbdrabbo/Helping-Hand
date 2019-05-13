@@ -3,6 +3,9 @@
   margin: 0;
   padding: 0; }
 
+.desktop-header {
+  display: none; }
+
 .button1 {
   background-color: #801014; }
 
@@ -70,3 +73,45 @@ footer {
   background-color: #801014;
   color: white;
   margin-left: -1%; }
+
+/* desktop version */
+@media only screen and (min-width: 1200px) {
+  .m-header {
+    display: none; }
+
+  .desktop-header {
+    display: block;
+    padding: 0%;
+    background-color: #F3F3F3;
+    font-family: 'Raleway', sans-serif; }
+    .desktop-header img {
+      max-width: 60%;
+      margin: 2% 0 0 25%; }
+    .desktop-header ul {
+      display: flex;
+      justify-content: space-between;
+      list-style-type: none;
+      padding: 6% 15% 3% 15%; }
+    .desktop-header a {
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+      font-size: 0.90em; }
+    .desktop-header button {
+      border: none;
+      border-radius: 6px;
+      padding: 4% 13% 3% 13%;
+      color: white;
+      font-weight: bold;
+      font-size: 0.90em; }
+
+  .desktop-header-grid-article {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr; }
+
+  .desktop-header-buttons {
+    margin: 4% 3% 3% 25%; }
+
+  footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; } }

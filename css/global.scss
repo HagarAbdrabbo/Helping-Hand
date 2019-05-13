@@ -1,16 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
-$primary-color: #801014;
-$second-color: #60721B;
+$red: #801014;
+$green: #60721B;
+$gray: #F3F3F3;
 
 * {
     margin:  0;
     padding: 0;
 }
 
-.button1 {background-color: $primary-color;
+.desktop-header {display: none;}
+.button1 {background-color: $red;
 }
-.button2 {background-color: $second-color;
+.button2 {background-color: $green;
 }
 .header-buttons {
     display: flex;
@@ -25,7 +27,7 @@ $second-color: #60721B;
     }
 }
 .main-header {
-    background-color: #F3F3F3;
+    background-color: $gray ;
     padding-top: 5% 0 3% 0;
         
 }
@@ -37,7 +39,7 @@ margin-left: 55%;
 }
 
 
-footer{ background-color: #F3F3F3;
+footer{ background-color: $gray;
     font-family: 'Raleway', sans-serif;
     padding: 3% 3% 3% 5%;
 
@@ -63,7 +65,52 @@ footer{ background-color: #F3F3F3;
 
 .footer-p-bold { font-weight: bold}
 .footer-form-input-sign-up { padding:3% 11% 3% 11%;
-    background-color: $primary-color;
+    background-color: $red;
     color: white;
      margin-left: -1%;   
     }
+
+
+/* desktop version */
+@media only screen and (min-width:1200px) {
+    
+    .m-header {display: none;}
+    .desktop-header {display: block;
+        padding: 0%;
+        background-color: $gray;
+    
+    font-family: 'Raleway', sans-serif;
+    
+        img {max-width: 60%;
+        margin:2% 0 0 25%;}
+        
+        ul {display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+        padding: 6% 15% 3% 15%;}
+        
+        a { text-decoration: none;
+        color: black;
+        font-weight: bold;
+        font-size: 0.90em;}
+       
+        button {border: none;
+        border-radius: 6px;
+        padding: 4% 13% 3% 13%;
+            color: white;
+            font-weight: bold;
+            font-size: 0.90em;
+        }
+    
+    }
+    
+    .desktop-header-grid-article {display: grid;
+    grid-template-columns: 2fr 1fr 2fr;}
+    .desktop-header-buttons {margin: 4% 3% 3% 25%;}
+    
+    
+    footer {display: grid;
+    grid-template-columns: 1fr 1fr 1fr;}
+    
+    
+}
