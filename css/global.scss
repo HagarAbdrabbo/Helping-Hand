@@ -38,7 +38,7 @@ margin-top: 2%;}
 margin-left: 55%;
 }
 
-
+.desktop-nav-elemnts {display: none;}
 footer{ background-color: $gray;
     font-family: 'Raleway', sans-serif;
     padding: 3% 3% 3% 5%;
@@ -93,24 +93,40 @@ footer{ background-color: $gray;
         color: black;
         font-weight: bold;
         font-size: 0.90em;}
-       
+        li { padding: 0.5% 0 0.5% 0;}
         button {border: none;
         border-radius: 6px;
         padding: 4% 13% 3% 13%;
             color: white;
             font-weight: bold;
             font-size: 0.90em;
+            
         }
     
     }
     
     .desktop-header-grid-article {display: grid;
     grid-template-columns: 2fr 1fr 2fr;}
-    .desktop-header-buttons {margin: 4% 3% 3% 25%;}
+    .desktop-header-buttons {margin: 4% 3% 3% 25%;
     
+        a {color: white;}
+    }
     
+   
+    .desktop-nav-elemnts {display: block;}
     footer {display: grid;
-    grid-template-columns: 1fr 1fr 1fr;}
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0 2% 0 7%;
+        
+        a {font-size: 0.9em}
+        
+        form {margin: 7% 0 15% 17%;}
     
+        nav {margin-top: 5%;}
+    }
+    .footer-news-letter {  margin: 15% 0 0 -40%;  }  
+    .footer-contact-info { margin: 15% 0 0 15%;
+        li{ padding: 2% 0 2% 0;}
     
+    }
 }

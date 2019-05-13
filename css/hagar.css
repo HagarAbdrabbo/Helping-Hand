@@ -37,6 +37,9 @@
   max-width: 10%;
   margin-left: 55%; }
 
+.desktop-nav-elemnts {
+  display: none; }
+
 footer {
   background-color: #F3F3F3;
   font-family: 'Raleway', sans-serif;
@@ -97,6 +100,8 @@ footer {
       color: black;
       font-weight: bold;
       font-size: 0.90em; }
+    .desktop-header li {
+      padding: 0.5% 0 0.5% 0; }
     .desktop-header button {
       border: none;
       border-radius: 6px;
@@ -111,7 +116,27 @@ footer {
 
   .desktop-header-buttons {
     margin: 4% 3% 3% 25%; }
+    .desktop-header-buttons a {
+      color: white; }
+
+  .desktop-nav-elemnts {
+    display: block; }
 
   footer {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr; } }
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0 2% 0 7%; }
+    footer a {
+      font-size: 0.9em; }
+    footer form {
+      margin: 7% 0 15% 17%; }
+    footer nav {
+      margin-top: 5%; }
+
+  .footer-news-letter {
+    margin: 15% 0 0 -40%; }
+
+  .footer-contact-info {
+    margin: 15% 0 0 15%; }
+    .footer-contact-info li {
+      padding: 2% 0 2% 0; } }
