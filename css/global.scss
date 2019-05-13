@@ -4,13 +4,14 @@ $primary-color: #801014;
 $second-color: #60721B;
 
 * {
-    margin: 0;
+    margin:  0;
     padding: 0;
-    color: white;
 }
 
-.button1 {background-color: $primary-color;}
-.button2 {background-color: $second-color; }
+.button1 {background-color: $primary-color;
+}
+.button2 {background-color: $second-color;
+}
 .header-buttons {
     display: flex;
     justify-content: space-between;
@@ -20,6 +21,7 @@ $second-color: #60721B;
     font-family: 'Raleway', sans-serif;
     text-align: center;
     font-weight: bold;
+    color: white;
     }
 }
 .main-header {
@@ -35,11 +37,33 @@ margin-left: 55%;
 }
 
 
-footer{ 
+footer{ background-color: #F3F3F3;
+    font-family: 'Raleway', sans-serif;
+    padding: 3% 3% 3% 5%;
 
-    hr {width: 12em;}
-    nav {
-        a {}
+    hr {width: 10em;}
+    li {list-style-type: none;
+    padding: 1.5% 0 1.5% 0;}
+    a { text-decoration: none;
+    color: black;
+    font-weight: bold;}
+    nav {padding: 3% 0 10% 0;}
+    p {text-align: center;
+    margin-bottom: 1%;}
+    form {margin: 7% 0 15% 0;
+        
     }
+    input { padding: 3% 8% 3% 8%;
+    text-align: center;
+    color: #C1C1C1;
+     border: none;}
+    i {margin-right: 3%;}
     
 }
+
+.footer-p-bold { font-weight: bold}
+.footer-form-input-sign-up { padding:3% 11% 3% 11%;
+    background-color: $primary-color;
+    color: white;
+     margin-left: -1%;   
+    }
