@@ -13,11 +13,16 @@ p {
   font-family: 'Raleway', sans-serif; }
 
 h1 {
-  font-family: 'Montserrat', sans-serif; }
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.4em;
+  -webkit-text-stroke: 0.3px black;
+  text-shadow: 0.5px 0.5px black;
+  color: white; }
 
 h2 {
   font-family: 'Raleway', sans-serif;
-  margin-left: 5%; }
+  margin-left: 5%;
+  margin-top: 5%; }
 
 .desktop-header {
   display: none; }
@@ -33,7 +38,7 @@ h2 {
   justify-content: space-between;
   margin: 0; }
   .header-buttons a {
-    padding: 3% 18% 3% 18%;
+    padding: 3% 16.5% 3% 16.5%;
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
     text-align: center;
@@ -165,11 +170,6 @@ img {
     position: absolute;
     top: 5%;
     margin: 4%; }
-  .home-page-start h1 {
-    color: white;
-    font-size: 1.4em;
-    -webkit-text-stroke: 0.3px black;
-    text-shadow: 0.5px 0.5px black; }
   .home-page-start p {
     color: white;
     font-size: 1em;
@@ -347,3 +347,54 @@ img {
 
 .event-example-address {
   font-size: 0.8em; }
+
+/*--- Mobile About Us page --*/
+.About-us-banner {
+  position: relative; }
+  .About-us-banner h1 {
+    position: absolute;
+    top: 80%;
+    margin: 4%; }
+
+.about-us-intro ul {
+  font-family: 'Raleway', sans-serif;
+  margin: 3% 2% 3% 7%; }
+  .about-us-intro ul li {
+    padding-bottom: 2%; }
+
+.badges {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 1fr;
+  margin: 3% 7% 3% 7%; }
+  .badges img {
+    max-width: 90%;
+    padding: 5%; }
+
+.profit-badge {
+  max-width: 93; }
+
+.about-us-story p {
+  text-align: justify;
+  margin: 3%; }
+
+.center-h2 {
+  margin: 5% 0 0 0;
+  text-align: center; }
+
+.about-us-chairman {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 5% 2% 5% 5%; }
+  .about-us-chairman p {
+    margin-right: 2%; }
+
+.contact-gihad {
+  margin-top: 9%;
+  font-size: 0.9em; }
+
+.about-us-work-with {
+  margin: 5%; }
+  .about-us-work-with h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    margin-bottom: 3%; }

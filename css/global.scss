@@ -16,9 +16,16 @@ button {border-radius: 5px;
 border: none;
 }
 p {font-family: 'Raleway', sans-serif;}
-h1 {font-family: 'Montserrat', sans-serif;}
+
+h1 {font-family: 'Montserrat', sans-serif;
+font-size: 1.4em;
+-webkit-text-stroke: 0.3px black;
+    text-shadow: 0.5px 0.5px black;
+color: white;}
+
 h2 {font-family: 'Raleway', sans-serif;
-margin-left: 5%;}
+margin-left: 5%;
+margin-top: 5%;}
 
 .desktop-header {display: none;}
 .button1 {background-color: $red;
@@ -29,7 +36,7 @@ margin-left: 5%;}
     display: flex;
     justify-content: space-between;
     margin: 0;
-   a {padding: 3% 18% 3% 18%;
+   a {padding: 3% 16.5% 3% 16.5%;
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
     text-align: center;
