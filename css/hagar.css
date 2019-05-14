@@ -1,7 +1,22 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
 * {
   margin: 0;
   padding: 0; }
+
+button {
+  border-radius: 5px;
+  font-family: 'Raleway', sans-serif;
+  border: none; }
+
+p {
+  font-family: 'Raleway', sans-serif; }
+
+h1 {
+  font-family: 'Montserrat', sans-serif; }
+
+h2 {
+  font-family: 'Raleway', sans-serif; }
 
 .desktop-header {
   display: none; }
@@ -22,7 +37,8 @@
     font-family: 'Raleway', sans-serif;
     text-align: center;
     font-weight: bold;
-    color: white; }
+    color: white;
+    border-radius: 0; }
 
 .main-header {
   background-color: #F3F3F3;
@@ -104,7 +120,6 @@ footer {
       padding: 0.5% 0 0.5% 0; }
     .desktop-header button {
       border: none;
-      border-radius: 6px;
       padding: 4% 13% 3% 13%;
       color: white;
       font-weight: bold;
@@ -140,3 +155,145 @@ footer {
     margin: 15% 0 0 15%; }
     .footer-contact-info li {
       padding: 2% 0 2% 0; } }
+/*-- Mobile home page --*/
+img {
+  max-width: 100%; }
+
+.home-page-start {
+  position: relative; }
+  .home-page-start article {
+    position: absolute;
+    top: 5%;
+    margin: 4%; }
+  .home-page-start h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 1.4em;
+    -webkit-text-stroke: 0.3px black;
+    text-shadow: 0.5px 0.5px black; }
+  .home-page-start p {
+    color: white;
+    font-size: 1em;
+    margin: 5% 0 5% 0;
+    -webkit-text-stroke: 0.1px black;
+    text-shadow: 0.5px 0.5px black; }
+  .home-page-start button {
+    border: none;
+    padding: 3% 8% 3% 8%;
+    background-color: #801014;
+    text-align: center;
+    margin: 20% 0% 2% 38%; }
+    .home-page-start button a {
+      text-decoration: none;
+      color: white;
+      font-size: 0.8em;
+      font-weight: bold; }
+
+.logo-without-hand {
+  max-width: 50%;
+  margin: 6% 3% 0 25%; }
+
+.home-page-intro {
+  margin: 6% 5% 3% 5%;
+  text-align: center; }
+
+.home-page-projects i {
+  font-size: 0.7em; }
+
+.Home-page-example-project {
+  position: relative;
+  max-width: 75%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  box-shadow: 5px 5px 8px #F3F3F3; }
+  .Home-page-example-project img {
+    max-width: 100%; }
+  .Home-page-example-project p {
+    text-align: center; }
+  .Home-page-example-project footer {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 5%; }
+    .Home-page-example-project footer a {
+      color: #60721B;
+      font-weight: bold;
+      font-family: 'Montserrat', sans-serif;
+      margin-top: 5%;
+      margin-left: 5%; }
+    .Home-page-example-project footer h6 {
+      color: #BDBDBD;
+      margin-left: 16%;
+      font-size: 0.9em; }
+    .Home-page-example-project footer p {
+      color: #801014;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: bold; }
+
+.Home-page-project-banner {
+  position: absolute;
+  top: 35.5%; }
+  .Home-page-project-banner p {
+    color: white;
+    -webkit-text-stroke: 0.1px black;
+    text-shadow: 0.5px 0.5px black; }
+  .Home-page-project-banner i {
+    color: #801014;
+    font-size: 1.2em;
+    margin-right: 2%; }
+
+.location-sign {
+  font-size: 1em;
+  margin-left: 11%;
+  padding-bottom: 2%; }
+
+.red-background {
+  width: 103%;
+  border: 1px solid #801014;
+  background-color: #801014;
+  padding: 5% 4.5% 5% 4.5%;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold; }
+
+.green-background {
+  width: 103%;
+  border: 1px solid #60721B;
+  background-color: #60721B;
+  padding: 5% 4.5% 5% 4.5%;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold; }
+
+.Home-page-projects-dsc {
+  margin-top: 5%; }
+
+.home-page-donation-section {
+  text-align: center;
+  margin-top: 5%;
+  background-color: #F3F3F3; }
+  .home-page-donation-section h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    padding: 5% 2% 2% 2%; }
+  .home-page-donation-section p {
+    font-size: 1em;
+    padding: 0 2% 5% 2%; }
+  .home-page-donation-section img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  .home-page-donation-section button {
+    background-color: #801014;
+    padding: 3% 5% 3% 5%;
+    margin: 5% 0 5% 0; }
+  .home-page-donation-section a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif; }
+
+.Home-page-donation-icon {
+  max-width: 35%;
+  margin: 7%; }

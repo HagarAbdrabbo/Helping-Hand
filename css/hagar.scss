@@ -1,1 +1,147 @@
 @import 'global';
+
+
+/*-- Mobile home page --*/
+
+img {max-width: 100%;}
+.home-page-start {position: relative;
+    article {position: absolute;
+    top: 5%;
+    margin: 4%;}
+    
+    h1 {font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 1.4em;
+    -webkit-text-stroke: 0.3px black;
+    text-shadow: 0.5px 0.5px black;}
+    
+    p {
+    color: white;
+    font-size: 1em;
+    margin: 5% 0 5% 0;
+    -webkit-text-stroke: 0.1px black;
+    text-shadow: 0.5px 0.5px black;}
+    button{ border: none;
+    padding: 3% 8% 3% 8%;
+    background-color: $red;
+    text-align: center;
+       margin: 20% 0% 2% 38%;
+    
+     a {text-decoration: none;
+    color: white;
+    font-size: 0.8em;
+    font-weight: bold;}
+    }
+    
+    
+}
+
+.logo-without-hand {max-width: 50%;
+margin: 6% 3% 0 25% ;}
+
+.home-page-intro {margin: 6% 5% 3% 5%;
+    text-align: center;}
+
+.home-page-projects {
+    i{font-size: 0.7em;}
+}
+
+.Home-page-example-project {position: relative;
+    max-width: 75%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    box-shadow: 5px 5px 8px $gray;
+    img {max-width: 100%;}
+
+    p {text-align: center;}
+    
+    footer {background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+        margin-top: 5%;
+    
+        a {color:$green;
+        font-weight: bold;
+        font-family:'Montserrat', sans-serif;
+            margin-top: 5%;
+            margin-left: 5%;
+        }
+        h6{ color: $middle-gray;
+        margin-left: 16%;
+        font-size: 0.9em;}
+        p {color: $red;
+        font-family:'Montserrat', sans-serif;
+            font-weight: bold;
+        }
+    }
+}
+
+.Home-page-project-banner { position: absolute;
+top: 35.5%;
+    
+    p {color: white;
+    -webkit-text-stroke: 0.1px black;
+    text-shadow: 0.5px 0.5px black;}
+    
+    i {color: $red;
+    font-size: 1.2em;
+    margin-right: 2%;}
+}
+
+.location-sign { font-size: 1em;
+margin-left: 11%;
+padding-bottom: 2%;}
+
+.red-background {width: 103%;
+      border: 1px solid $red;
+    background-color: $red;
+    padding: 5% 4.5% 5% 4.5%;
+    text-align: center;
+    font-family:'Montserrat', sans-serif;
+    font-weight: bold;
+
+}
+
+.green-background {width: 103%;
+      border: 1px solid $green;
+    background-color: $green;
+    padding: 5% 4.5% 5% 4.5%;
+    text-align: center;
+    font-family:'Montserrat', sans-serif;
+    font-weight: bold;}
+
+.Home-page-projects-dsc {margin-top: 5%;}
+
+.home-page-donation-section {text-align: center;
+    margin-top: 5%;
+    
+    background-color: $gray;
+    h5{font-family:'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+        
+        padding: 5% 2% 2% 2% ;
+    }
+    p {font-size: 1em;
+   padding:0 2% 5% 2%;
+   }
+    
+    img {display: block;
+        margin-left: auto;
+    margin-right: auto;
+    }
+    
+    
+    button{ background-color: $red;
+    padding: 3% 5% 3% 5%;
+    
+    margin: 5% 0 5% 0;}
+    
+    a {text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;}
+}
+
+.Home-page-donation-icon {max-width: 35%;
+margin: 7%;} 

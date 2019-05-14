@@ -1,13 +1,23 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
 
 $red: #801014;
 $green: #60721B;
 $gray: #F3F3F3;
-
+$dark-gray: #4d4d4d;
+$middle-gray: #BDBDBD;
 * {
     margin:  0;
     padding: 0;
 }
+
+button {border-radius: 5px;
+    font-family: 'Raleway', sans-serif;
+border: none;
+}
+p {font-family: 'Raleway', sans-serif;}
+h1 {font-family: 'Montserrat', sans-serif;}
+h2 {font-family: 'Raleway', sans-serif;}
 
 .desktop-header {display: none;}
 .button1 {background-color: $red;
@@ -24,6 +34,7 @@ $gray: #F3F3F3;
     text-align: center;
     font-weight: bold;
     color: white;
+        border-radius: 0;
     }
 }
 .main-header {
@@ -95,7 +106,6 @@ footer{ background-color: $gray;
         font-size: 0.90em;}
         li { padding: 0.5% 0 0.5% 0;}
         button {border: none;
-        border-radius: 6px;
         padding: 4% 13% 3% 13%;
             color: white;
             font-weight: bold;
