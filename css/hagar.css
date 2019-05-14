@@ -166,7 +166,6 @@ img {
     top: 5%;
     margin: 4%; }
   .home-page-start h1 {
-    font-family: 'Montserrat', sans-serif;
     color: white;
     font-size: 1.4em;
     -webkit-text-stroke: 0.3px black;
@@ -297,3 +296,9 @@ img {
 .Home-page-donation-icon {
   max-width: 35%;
   margin: 7%; }
+
+.home-page-event-section i {
+  font-size: 0.7em; }
+.home-page-event-section p {
+  font-size: 1em;
+  margin: 5% 0 2% 0; }
