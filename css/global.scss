@@ -17,7 +17,8 @@ border: none;
 }
 p {font-family: 'Raleway', sans-serif;}
 h1 {font-family: 'Montserrat', sans-serif;}
-h2 {font-family: 'Raleway', sans-serif;}
+h2 {font-family: 'Raleway', sans-serif;
+margin-left: 5%;}
 
 .desktop-header {display: none;}
 .button1 {background-color: $red;
@@ -28,8 +29,8 @@ h2 {font-family: 'Raleway', sans-serif;}
     display: flex;
     justify-content: space-between;
     margin: 0;
-    button {padding: 3% 18% 3% 18%;
-    border: none;
+   a {padding: 3% 18% 3% 18%;
+    text-decoration: none;
     font-family: 'Raleway', sans-serif;
     text-align: center;
     font-weight: bold;
@@ -105,21 +106,22 @@ footer{ background-color: $gray;
         font-weight: bold;
         font-size: 0.90em;}
         li { padding: 0.5% 0 0.5% 0;}
-        button {border: none;
-        padding: 4% 13% 3% 13%;
-            color: white;
-            font-weight: bold;
-            font-size: 0.90em;
-            
-        }
+    
     
     }
     
     .desktop-header-grid-article {display: grid;
     grid-template-columns: 2fr 1fr 2fr;}
-    .desktop-header-buttons {margin: 4% 3% 3% 25%;
+    .desktop-header-buttons {margin: 7% 3% 3% 25%;
     
-        a {color: white;}
+        a  {border: solid;
+            border-radius: 6px;
+        padding: 4% 13% 3% 13%;
+            color: white;
+            font-weight: bold;
+            font-size: 0.90em;
+           
+            }
     }
     
    

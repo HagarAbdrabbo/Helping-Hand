@@ -16,7 +16,8 @@ h1 {
   font-family: 'Montserrat', sans-serif; }
 
 h2 {
-  font-family: 'Raleway', sans-serif; }
+  font-family: 'Raleway', sans-serif;
+  margin-left: 5%; }
 
 .desktop-header {
   display: none; }
@@ -31,9 +32,9 @@ h2 {
   display: flex;
   justify-content: space-between;
   margin: 0; }
-  .header-buttons button {
+  .header-buttons a {
     padding: 3% 18% 3% 18%;
-    border: none;
+    text-decoration: none;
     font-family: 'Raleway', sans-serif;
     text-align: center;
     font-weight: bold;
@@ -118,21 +119,20 @@ footer {
       font-size: 0.90em; }
     .desktop-header li {
       padding: 0.5% 0 0.5% 0; }
-    .desktop-header button {
-      border: none;
-      padding: 4% 13% 3% 13%;
-      color: white;
-      font-weight: bold;
-      font-size: 0.90em; }
 
   .desktop-header-grid-article {
     display: grid;
     grid-template-columns: 2fr 1fr 2fr; }
 
   .desktop-header-buttons {
-    margin: 4% 3% 3% 25%; }
+    margin: 7% 3% 3% 25%; }
     .desktop-header-buttons a {
-      color: white; }
+      border: solid;
+      border-radius: 6px;
+      padding: 4% 13% 3% 13%;
+      color: white;
+      font-weight: bold;
+      font-size: 0.90em; }
 
   .desktop-nav-elemnts {
     display: block; }
@@ -231,7 +231,7 @@ img {
 
 .Home-page-project-banner {
   position: absolute;
-  top: 35.5%; }
+  top: 36%; }
   .Home-page-project-banner p {
     color: white;
     -webkit-text-stroke: 0.1px black;
@@ -240,6 +240,16 @@ img {
     color: #801014;
     font-size: 1.2em;
     margin-right: 2%; }
+  .Home-page-project-banner a {
+    text-decoration: none;
+    padding: 2.5% 11% 2.5% 11%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
 
 .location-sign {
   font-size: 1em;
@@ -247,22 +257,10 @@ img {
   padding-bottom: 2%; }
 
 .red-background {
-  width: 103%;
-  border: 1px solid #801014;
-  background-color: #801014;
-  padding: 5% 4.5% 5% 4.5%;
-  text-align: center;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bold; }
+  background-color: #801014; }
 
 .green-background {
-  width: 103%;
-  border: 1px solid #60721B;
-  background-color: #60721B;
-  padding: 5% 4.5% 5% 4.5%;
-  text-align: center;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bold; }
+  background-color: #60721B; }
 
 .Home-page-projects-dsc {
   margin-top: 5%; }
@@ -297,8 +295,55 @@ img {
   max-width: 35%;
   margin: 7%; }
 
-.home-page-event-section i {
-  font-size: 0.7em; }
-.home-page-event-section p {
+.home-page-event-section {
+  margin-top: 5%; }
+  .home-page-event-section i {
+    font-size: 0.7em; }
+
+.home-page-event-dsc {
   font-size: 1em;
-  margin: 5% 0 2% 0; }
+  margin: 5% 5% 2% 5%; }
+
+.home-page-event-example {
+  max-width: 90%;
+  border: 1px solid #BDBDBD;
+  margin: 5%; }
+  .home-page-event-example h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 4%; }
+  .home-page-event-example a {
+    text-decoration: none;
+    color: white;
+    background-color: #801014;
+    padding: 3%;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2em; }
+
+.event-dsc {
+  display: grid;
+  grid-template-columns: 0.7fr 0.1fr 3fr; }
+  .event-dsc hr {
+    width: 1px;
+    size: 50px;
+    color: #BDBDBD; }
+  .event-dsc h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-top: 3%;
+    margin-left: 1%; }
+  .event-dsc p {
+    margin: 2% 1% 2% 1%; }
+
+.event-example-date {
+  font-size: 1em; }
+
+.event-example-address {
+  font-size: 0.8em; }

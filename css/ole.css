@@ -16,7 +16,8 @@ h1 {
   font-family: 'Montserrat', sans-serif; }
 
 h2 {
-  font-family: 'Raleway', sans-serif; }
+  font-family: 'Raleway', sans-serif;
+  margin-left: 5%; }
 
 .desktop-header {
   display: none; }
@@ -31,9 +32,9 @@ h2 {
   display: flex;
   justify-content: space-between;
   margin: 0; }
-  .header-buttons button {
+  .header-buttons a {
     padding: 3% 18% 3% 18%;
-    border: none;
+    text-decoration: none;
     font-family: 'Raleway', sans-serif;
     text-align: center;
     font-weight: bold;
@@ -118,21 +119,20 @@ footer {
       font-size: 0.90em; }
     .desktop-header li {
       padding: 0.5% 0 0.5% 0; }
-    .desktop-header button {
-      border: none;
-      padding: 4% 13% 3% 13%;
-      color: white;
-      font-weight: bold;
-      font-size: 0.90em; }
 
   .desktop-header-grid-article {
     display: grid;
     grid-template-columns: 2fr 1fr 2fr; }
 
   .desktop-header-buttons {
-    margin: 4% 3% 3% 25%; }
+    margin: 7% 3% 3% 25%; }
     .desktop-header-buttons a {
-      color: white; }
+      border: solid;
+      border-radius: 6px;
+      padding: 4% 13% 3% 13%;
+      color: white;
+      font-weight: bold;
+      font-size: 0.90em; }
 
   .desktop-nav-elemnts {
     display: block; }
