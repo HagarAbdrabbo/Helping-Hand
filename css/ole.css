@@ -239,3 +239,26 @@ footer {
 
 .IBDAA-cultural-center-logo {
   max-width: 45%; }
+
+.event-page-intro p {
+  margin: 5%;
+  text-align: center; }
+
+.event-page-upcoming-events {
+  margin-top: 10%; }
+
+.Generalforsamling-event {
+  margin-top: 15%; }
+
+.event-page-regular-events {
+  margin-top: 15%; }
+
+.regular-event-example {
+  margin-bottom: 13%; }
+  .regular-event-example p {
+    margin: 5%; }
+  .regular-event-example h3 {
+    text-align: center;
+    margin-top: 7%;
+    margin-bottom: 4%;
+    font-family: 'Raleway', sans-serif; }
