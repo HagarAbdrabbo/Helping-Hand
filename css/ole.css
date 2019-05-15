@@ -160,3 +160,82 @@ footer {
     margin: 15% 0 0 15%; }
     .footer-contact-info li {
       padding: 2% 0 2% 0; } }
+/*--- Mobile About Us page --*/
+.banner {
+  position: relative; }
+  .banner h1 {
+    position: absolute;
+    top: 80%;
+    margin: 4%; }
+
+.about-us-intro ul {
+  font-family: 'Raleway', sans-serif;
+  margin: 3% 2% 3% 7%; }
+  .about-us-intro ul li {
+    padding-bottom: 2%; }
+
+.badges {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 3% 7% 3% 7%; }
+  .badges img {
+    padding: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+
+.twin-badges {
+  max-width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 7%; }
+
+.profit-badge {
+  max-width: 93%; }
+
+.about-us-story p {
+  text-align: justify;
+  margin: 3%; }
+
+.center-h2 {
+  margin: 5% 0 0 0;
+  text-align: center; }
+
+.about-us-chairman {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 5% 2% 5% 5%; }
+  .about-us-chairman p {
+    margin-right: 2%; }
+
+.contact-gihad {
+  margin-top: 9%;
+  font-size: 0.9em; }
+
+.about-us-work-with {
+  margin: 5%; }
+  .about-us-work-with h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    margin-bottom: 3%; }
+
+.partner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 10% 0 10% 0; }
+  .partner p {
+    font-size: 0.7em;
+    color: #4d4d4d;
+    text-align: center;
+    margin-top: 10%; }
+  .partner img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+
+.Union-of-Health-Committee-logo {
+  max-width: 43%; }
+
+.IBDAA-cultural-center-logo {
+  max-width: 45%; }
