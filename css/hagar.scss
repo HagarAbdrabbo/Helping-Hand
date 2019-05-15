@@ -60,6 +60,7 @@ margin: 6% 3% 0 25% ;}
         font-family:'Montserrat', sans-serif;
             margin-top: 5%;
             margin-left: 5%;
+            
         }
         h6{ color: $middle-gray;
         margin-left: 16%;
@@ -72,7 +73,7 @@ margin: 6% 3% 0 25% ;}
 }
 
 .project-example-banner { position: absolute;
-top: 36%;
+top: 43%;
     
     p {color: white;
     -webkit-text-stroke: 0.1px black;
@@ -83,7 +84,7 @@ top: 36%;
     margin-right: 2%;}
     
     a {text-decoration: none;
-    padding: 2.5% 11% 2.5% 11%;
+    padding: 2.5%;
     text-align: center;
     font-family:'Montserrat', sans-serif;
     font-weight: bold;
@@ -91,6 +92,7 @@ top: 36%;
      display: block;
     margin-left: auto;
     margin-right: auto;
+        width: 113.5%;
     }
 }
 
@@ -156,7 +158,7 @@ margin: 7%;}
 }
 .home-page-event-dsc {font-size: 1em;
     margin: 5% 5% 2% 5%;}
-.home-page-event-example {
+.event-example {
     max-width: 90%;
     border: 1px solid $middle-gray;
     margin: 5%;
@@ -208,6 +210,36 @@ grid-template-columns: 0.7fr 0.1fr 3fr;
 
 //--------- Mobile How We Help Page ---------//
 
+.how-we-page-banner-section {position: relative;}
 .how-page-banner-footer{display: grid;
 grid-template-columns: 1fr 1fr;
-background-color: $red;}
+background-color: $red;
+    position: absolute;
+    top: 98.5%;
+    width:92%;
+    padding-right: 5%;
+}
+.how-we-banner-gray-text {color: $middle-gray;
+font-size: 0.8em;
+}
+.how-we-banner-white-text {color: white;
+font-family: 'Montserrat', sans-serif;}
+
+.how-us-badges-section {margin: 10% 5% 5% 5%;
+text-align: center;
+
+    p {margin-top: 7%;}
+}
+
+.how-we-event-section {margin-top: 10%;
+    padding-bottom: 10%;
+    i {font-size: 0.7em;}
+    h2 {margin-bottom: 5%;}
+}
+
+h4 {
+        a{color: $red;
+            font-family: 'Raleway', sans-serif;
+        text-decoration: none;
+        margin: 5%;}
+    }

@@ -231,7 +231,7 @@ img {
 
 .project-example-banner {
   position: absolute;
-  top: 36%; }
+  top: 43%; }
   .project-example-banner p {
     color: white;
     -webkit-text-stroke: 0.1px black;
@@ -242,14 +242,15 @@ img {
     margin-right: 2%; }
   .project-example-banner a {
     text-decoration: none;
-    padding: 2.5% 11% 2.5% 11%;
+    padding: 2.5%;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     color: white;
     display: block;
     margin-left: auto;
-    margin-right: auto; }
+    margin-right: auto;
+    width: 113.5%; }
 
 .location-sign {
   font-size: 1em;
@@ -309,16 +310,16 @@ img {
   font-size: 1em;
   margin: 5% 5% 2% 5%; }
 
-.home-page-event-example {
+.event-example {
   max-width: 90%;
   border: 1px solid #BDBDBD;
   margin: 5%; }
-  .home-page-event-example h3 {
+  .event-example h3 {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-size: 1.2em;
     padding: 4%; }
-  .home-page-event-example a {
+  .event-example a {
     text-decoration: none;
     color: white;
     background-color: #801014;
@@ -359,7 +360,42 @@ img {
 .event-example-address {
   font-size: 0.8em; }
 
+.how-we-page-banner-section {
+  position: relative; }
+
 .how-page-banner-footer {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  background-color: #801014; }
+  background-color: #801014;
+  position: absolute;
+  top: 98.5%;
+  width: 92%;
+  padding-right: 5%; }
+
+.how-we-banner-gray-text {
+  color: #BDBDBD;
+  font-size: 0.8em; }
+
+.how-we-banner-white-text {
+  color: white;
+  font-family: 'Montserrat', sans-serif; }
+
+.how-us-badges-section {
+  margin: 10% 5% 5% 5%;
+  text-align: center; }
+  .how-us-badges-section p {
+    margin-top: 7%; }
+
+.how-we-event-section {
+  margin-top: 10%;
+  padding-bottom: 10%; }
+  .how-we-event-section i {
+    font-size: 0.7em; }
+  .how-we-event-section h2 {
+    margin-bottom: 5%; }
+
+h4 a {
+  color: #801014;
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+  margin: 5%; }
