@@ -15,23 +15,80 @@
 </head>
 
 <body>
-  <header class="m-header">
+  <header >
+      <section class="m-header">
     <article class="header-buttons">
-        <a href="#" class="button1">Donate</a>
-        <a href="#" class="button2">Volunteer</a>
+        <button id="donate" class="button1">Donate</button>
+        <button id="volunteer" class="button2">Volunteer</button>
     </article>
+          <article id="m-donation-section" class="m-donation-section">
+          <article class="donation-section-amounts">
+            <p>100kr</p>
+              <p>150 kr</p>
+              <p>300 kr</p>
+              <p>other</p>
+        </article>
+          
+        <article class="donation-time">
+            
+            <label class="container">Monthly
+  <input type="checkbox" checked="checked">
+  <span class="checkmark monthly"></span>
+</label>
+            
+     <label class="container ">One time
+  <input   type="checkbox" checked="checked">
+  <span class="checkmark one-time"></span>
+</label>
+              
+         </article>
+              
+              <a href="#">Support Now</a>
+          </article>
+          
+          <article id="m-volunteer-section" class="m-volunteer-section">
+              <h4>Want to help children living traumatized lifes?</h4>
+              
+              <p>We can use a helping hand with writing, upaditng facebook, hosting events, singing, fundraising etc.<br><br>Tell us why </p>
+              
+              <form>
+              <input class="input-name" type="text"  value="Name"><br><br>
+                  
+            <input class="input-info" type="text" value="Tell us  why you want and can give a Helping Hand" >
+              
+              </form>
+          
+          <a href="#">Join Us</a>
+          </article>
+          
       <article class="main-header">
          <a href="index.html"><img class="logo" src="img/dark%20logo2.png" alt="helping hand"></a>
-          <img class="burger-menu" src="img/menu.svg" alt="burger menu">
+          <i id="burger-menu" class="fas fa-bars"></i>
+          
       </article>
       
-  </header>
-    
-    <header class="desktop-header">
-    <article class="desktop-header-grid-article">
+      <nav id="mobile-nav">
+          <ul>
+              <hr>
+              <li><a href="how%20we%20help.html">How We Help</a></li>
+              <hr>
+        <li><a href="events.html">Events</a></li>
+            <hr>
+
+        <li><a href="about-us.html">About Us</a></li>
+        <hr>
+
+         </ul>
+          </nav>
+     </section> 
+      
+      
+      
+      <section class="desktop-header">
+      <article class="desktop-header-grid-article">
     <nav>
     <ul>
-    <li><a href="projects.html">How We Help</a></li>
+    <li><a href="how%20we%20help.html">How We Help</a></li>
         <li><a href="events.html">Events</a></li>
         <li><a href="about-us.html">About Us</a></li>
     </ul>    
@@ -41,11 +98,16 @@
         <article class="desktop-header-buttons">
         <a class="button1" href="donate.html">Donate</a>
         <a class="button2" href="volunteer.html">Volunteer</a>
-        </article>    
+        </article>
+    
+    
     </article>
+      </section>
+  
+    
     </header>
     
-    <main>
+    <main id="main">
     <section class="banner">
     <img src="img/AboutUs-banner.jpg" alt="helping hand">
         <h1>About Us</h1>
