@@ -297,6 +297,12 @@ footer{ background-color: $gray;
 /* desktop version */
 @media only screen and (min-width:1200px) {
     
+      h1 {font-size: 3em;} 
+    h2 {text-align: center;
+    font-size: 2em;
+    margin-left: 0;}
+
+    
     .m-header {display: none;}
     .desktop-header {display: block;
         padding: 0%;

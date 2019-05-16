@@ -4,6 +4,8 @@
 /*-- Mobile home page --*/
 
 img {max-width: 100%;}
+
+.baddges-home-page {display: none;}
 .home-page-start {position: relative;
     article {position: absolute;
     top: 5%;
@@ -16,6 +18,7 @@ img {max-width: 100%;}
     margin: 5% 0 5% 0;
     -webkit-text-stroke: 0.1px black;
     text-shadow: 0.5px 0.5px black;}
+    
     button{ border: none;
     padding: 3% 8% 3% 8%;
     background-color: $red;
@@ -32,21 +35,36 @@ img {max-width: 100%;}
 }
 
 .logo-without-hand {max-width: 50%;
-margin: 6% 3% 0 25% ;}
+display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7%;
+
+}
 
 .home-page-intro {margin: 6% 5% 3% 5%;
-    text-align: center;}
+    text-align: center;
+    a {text-decoration: none;
+    color: black;
+    font-weight: bold;}
+}
 
 .home-page-projects {
     i{font-size: 0.7em;}
 }
 
 .projects-example {position: relative;
-    max-width: 75%;
+    max-width: 80%;
     margin-top: 5%;
     margin-bottom: 5%;
     box-shadow: 5px 5px 8px $gray;
-    img {max-width: 100%;}
+    
+        display: block;
+    margin-left: auto;
+    margin-right: auto;
+    img {max-width: 100%;
+    
+}
 
     p {text-align: center;}
     
@@ -88,11 +106,11 @@ top: 43%;
     text-align: center;
     font-family:'Montserrat', sans-serif;
     font-weight: bold;
-    color: white;
+    color: black;
      display: block;
     margin-left: auto;
     margin-right: auto;
-        width: 113.5%;
+        width: 120.5%;
     }
 }
 
@@ -100,14 +118,14 @@ top: 43%;
 margin-left: 11%;
 padding-bottom: 2%;}
 
-.red-background {
+/*.red-background {
     
     background-color: $red;
    
-}
+}*/
 
 .green-background {
-    background-color: $green;
+    background-color: $gray;
     }
 
 .project-example-dsc {margin-top: 5%;}
@@ -143,6 +161,7 @@ padding-bottom: 2%;}
     font-family: 'Raleway', sans-serif;}
 }
 
+.donation-desktop-section{display: none;}
 .Home-page-donation-icon {max-width: 35%;
 margin: 7%;} 
 
@@ -157,7 +176,11 @@ margin: 7%;}
     margin: -2% 5% 5% 5%;}
 }
 .home-page-event-dsc {font-size: 1em;
-    margin: 5% 5% 2% 5%;}
+    margin: 5% 5% 2% 5%;
+    a{text-decoration: none;
+    color: black;
+    font-weight: bold;}
+}
 .event-example {
     max-width: 90%;
     border: 1px solid $middle-gray;
@@ -243,3 +266,222 @@ h4 {
         text-decoration: none;
         margin: 5%;}
     }
+
+
+/*---------------- desktop version -------------------*/
+
+@media only screen and (min-width:1200px) {
+// Home page-Desktop
+   
+    .home-page-start {
+        
+        article{top:20%;}
+        
+        p {    font-size:2em;}
+        
+        button {margin: 5% 0 2% 1%;
+        padding: 3% 10% 3% 10%;}
+        
+        a {}
+    }    
+    
+   .baddges-home-page {display: block;
+          margin: 28%  0 0 120%;
+    max-width: 60%;}
+    
+    .logo-without-hand{max-width: 27%;
+    margin-top: 3%;}
+    
+    .home-page-intro {font-size: 1.5em;
+    margin: 6% 10% 3% 10%;
+    line-height: 30px;
+        a {color: $green;}
+    }
+    
+    .home-page-projects {
+        
+        h2 {
+         i {display: none;}}
+    }
+    .projects-example {max-width: 41.5%;
+         
+        img {max-width: 200%;}
+    
+    }  
+    
+    .project-example-banner {top:59%;
+    
+    a {width: 180%;
+        text-align: inherit;
+        padding-left: 13%;
+        }
+        
+    }
+    
+    .location-sign {margin-left: 0;}
+    
+    .home-page-donation-section{
+        h5 {font-size: 1.5em;
+        font-weight: normal;}
+        
+        p{font-size: 1.5em;
+        font-weight: bold;}
+        button {display: none;}
+        
+        a {background-color: white;
+        color: $red;
+        padding: 2% 4% 2% 4%;
+        border-radius: 6px ;
+        }
+        
+    }
+    
+    .Donation-method {display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    margin: 2% 9% 0 9%;}
+    
+    .donation-desktop-section {
+        display: block;
+        background: $red;
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2% 0 4% 0;
+    
+        h2 {color: white;
+        font-size: 1.5em;
+        margin: 0;}
+        
+        img {margin-bottom: 3%;
+        margin-top: 3%;}
+        
+        p{color: $middle-gray;
+        font-size: 1em;}
+    }
+    
+    .desktop-donation-amount-section{margin-top: -3%;
+    
+    }
+    .donation-amounts {display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        
+        p {background-color: white;
+    color: black;
+    padding: 5% 7% 5% 7%;
+        border: solid white;
+      border-radius: 6px ;
+    
+    text-align: center;
+    margin: 10%;} 
+    
+}
+    
+    .D-donation-time{display: grid;
+grid-template-columns: 1fr 1fr;
+
+    padding: 5%;
+    margin-bottom: 3%;
+    label {color: $middle-gray;
+    font-size: 1.1em;}
+}
+    
+    .desktop-container {
+  display: block;
+  position: relative;
+    padding-left: 10%;
+  cursor: pointer;
+    -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+    
+    //Hide the browser's default radio button
+    input{position: absolute;
+  opacity: 0;
+  cursor: pointer;
+    }
+    
+    /*Create a custom radio button
+    span{ position: fixed;
+  top: 50%;
+  right: 70%;
+  height: 20px;
+  width: 20px;
+  background-color: $gray;
+  border-radius: 50%;
+   } */
+}
+
+.D-monthly { margin-left: -25%;}
+.D-one-time {margin-left: -10%;}
+
+/* On mouse-over, add a grey background color */
+.desktop-container:hover input ~ .descktop-checkmark {
+  background-color: white;
+}
+
+/* When the radio button is checked, add a blue background */
+.desktop-container input:checked ~ .desktop-checkmark {
+  background-color: white;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.desktop-checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.desktop-container input:checked ~ .desktop-checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.desktop-container .desktop-checkmark:after {
+  top: 6px;
+  left: 6px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: $green;
+}
+    .home-page-event-section{
+        
+        h2 {
+        i{display: none;}
+        }
+        
+           }
+    
+    .home-page-event-dsc{ text-align: center;
+        line-height: 30px;
+        margin: 2% 10% 0 10%;
+        font-size: 1.3em;
+        a{color: $red;}
+        
+    }
+    
+    .event-example {max-width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;}
+    
+    .Home-desktop-event-example{
+        
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+        margin: 5% ;
+        
+        }
+        
+        .Desktop-event-example-img {display: block;
+            max-width: 90%;
+            margin: 7% 0 0 3%;}
+    
+    .event-example{max-width: 90%;}
+}
+    
+
