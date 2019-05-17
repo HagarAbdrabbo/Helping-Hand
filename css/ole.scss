@@ -37,7 +37,9 @@ grid-template-columns: 1fr 1fr 1fr;
     margin-top: 7%;
 }
 .profit-badge {max-width: 93%;}
-    .about-us-story {
+   
+.D-about-us-staff{display: none;}
+.about-us-story {
         p {text-align: justify;
         margin: 3%;}
         }
@@ -189,5 +191,64 @@ margin: 10% 0 10% 0;
     font-size: 1em;
         font-family: 'Montserrat', sans-serif;
     text-align: center;
-    margin-top: 3%;}
+        padding-bottom: 5%;
+        
+        a{text-decoration: none;
+        color: white;
+        margin: 0% 2% 0 2%;
+        padding: 1% 4% 1% 4%;
+         border-radius: 6px;}
+    }
+    
+    .red-background {background-color: $red;}
+     .green-background {background-color: $green;}
+    .quote-p {margin: 1% 0 3% 0;}
+    
+    
+    
+    
+    
+    .about-us-banner{position: absolute;
+        top: 70%;
+    margin: 4%;
+     
+        h1{margin-top: -10%;}
+        img {margin: 45%  0 0 180%;}
+    }
+    
+    .about-us-intro {
+        margin:5% 30% 0 30%;
+        li {text-align: center;
+         }
+    }
+    
+    .D-about-us-padges{display: none;}
+    
+    .M-about-us-staff {display: none;}
+    
+    .D-about-us-staff{display: block;
+margin: 3% 10% 0 10%;
+        
+        img{max-width: 60%;}
+    }
+    
+    .about-us-chairman{
+        
+        article {margin: 3%  0 0 20%;}
+        h2 {text-align: inherit;
+        font-size: 1.7em;
+        margin: 7% 0 3% 0;}
+    }
+    
+    .gihad {font-weight: bold;
+    margin-top: 4%;}
+    
+    .about-us-story{
+        margin: 0 10% 0 10%;
+        
+        p{line-height: 27px;
+        text-align: center;}
+    }
+    
+    .about-us-quote {margin-top: -5%;}
 }
