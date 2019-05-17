@@ -113,6 +113,11 @@ margin: 10% 0 10% 0;
     font-family: 'Raleway', sans-serif;}
 }
 
+
+
+
+
+
 /* desktop version */
 @media only screen and (min-width:1200px) {
     
@@ -251,4 +256,34 @@ margin: 3% 10% 0 10%;
     }
     
     .about-us-quote {margin-top: -5%;}
+    .volunteer-page-banner{position: relative;}
+    .volunteer-page-green-section {max-width: 60%;
+    position: absolute;
+    background-color: $green;
+left: 20%;
+    
+    padding: 3% 0% 3% 0%;
+        margin-top: -10%;
+        top: 150%;
+    font-family: 'Raleway', sans-serif; 
+
+    h4 {color: white;
+    text-align: center;
+    font-weight: bold;
+    margin: 0 5% 3% 5%;}
+    
+    p {color: white;
+    text-align: center;
+    margin: 0 9% 7% 9%;}
+    
+    form {margin:0 9% 7% 9%;
+        input { color: $middle-gray;
+        
+        font-family: 'Raleway', sans-serif;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border:none;
+            border-radius: 6px;}}
+}
 }
