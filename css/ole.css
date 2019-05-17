@@ -445,6 +445,21 @@ footer {
 .Generalforsamling-event {
   margin-top: 15%; }
 
+.regular-event-intro {
+  display: none; }
+
+.event-calender {
+  display: none; }
+
+.D-ladies-night-img {
+  display: none; }
+
+.D-football-title {
+  display: none; }
+
+.quote {
+  display: none; }
+
 .event-page-regular-events {
   margin-top: 15%; }
 
@@ -470,4 +485,79 @@ footer {
     max-width: 70%; }
 
   .profit-badge {
-    max-width: 80%; } }
+    max-width: 80%; }
+
+  .upcoming-events-intro {
+    font-size: 1.3em;
+    line-height: 30px;
+    margin: 3% 10% 3% 10%;
+    text-align: center; }
+
+  .events-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 5%; }
+
+  .events-event-example {
+    max-width: 80%; }
+
+  .event-calender {
+    display: block;
+    text-decoration: none;
+    color: white;
+    background-color: #801014;
+    text-align: center;
+    margin-left: 35%;
+    margin-right: 35%;
+    padding: 1.5% 0 1.5% 0;
+    font-weight: bold;
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif; }
+
+  .event-page-regular-events {
+    margin-top: 0;
+    padding-bottom: 5%; }
+
+  .regular-event-intro {
+    display: block;
+    font-size: 1.3em;
+    line-height: 30px;
+    margin: 3% 10% 3% 10%;
+    text-align: center; }
+
+  .M-ladies-night-img {
+    display: none; }
+
+  .D-ladies-night-img {
+    display: block; }
+
+  .regular-event-example {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 7% 10% 0 10%; }
+    .regular-event-example h3 {
+      margin-top: 4%; }
+    .regular-event-example img {
+      max-width: 80%;
+      margin-left: auto;
+      margin-right: auto; }
+
+  .regular-event-bold-text {
+    font-weight: bold; }
+
+  .M-football-title {
+    display: none; }
+
+  .D-football-title {
+    display: block; }
+
+  .Football-Tournament-img {
+    margin-top: 10%; }
+
+  .quote {
+    display: block;
+    font-weight: bold;
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-top: 3%; } }
