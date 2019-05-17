@@ -111,6 +111,7 @@ top: 43%;
     margin-left: auto;
     margin-right: auto;
         width: 120.5%;
+        background-color: $gray;
     }
 }
 
@@ -118,15 +119,7 @@ top: 43%;
 margin-left: 11%;
 padding-bottom: 2%;}
 
-/*.red-background {
-    
-    background-color: $red;
-   
-}*/
 
-.green-background {
-    background-color: $gray;
-    }
 
 .project-example-dsc {margin-top: 5%;}
 
@@ -251,13 +244,24 @@ font-family: 'Montserrat', sans-serif;}
 .how-us-badges-section {margin: 10% 5% 5% 5%;
 text-align: center;
 
-    p {margin-top: 7%;}
+    
+     p{ margin:  6% 5% 3% 5%;
+    
+        a {text-decoration: none;
+        color: black;
+        font-weight: bold;}
+    
+    }
 }
 
+.partner{display: none;}
 .how-we-event-section {margin-top: 10%;
     padding-bottom: 10%;
     i {font-size: 0.7em;}
     h2 {margin-bottom: 5%;}
+    
+   
+    
 }
 
 h4 {
@@ -482,6 +486,60 @@ grid-template-columns: 1fr 1fr;
             margin: 7% 0 0 3%;}
     
     .event-example{max-width: 90%;}
+    
+    
+    .grid-projects-example {display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 3% 5% 0 5%;
+    
+        .project-example-dsc {margin:5% 2% 0 2%;}
+    }
+    
+    .projects-example {display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 70%;
+    padding-bottom: 2%;
+        img{max-width: 100%;}
+    }
+    
+    .project-example-banner {top:53%;
+        
+        a {width: 133%;}
+    }
+    .how-us-badges-section{
+        
+        p{ margin:  6% 10% 3% 10%;
+            font-size: 1.3em;
+           line-height: 30px;
+        
+            a {color:$red;}
+        }
+    }
+    
+    
+    .about-us-work-with{
+        h3 {text-align: center;}
+    }
+    
+    .partner{display:block;
+    margin-left: auto;
+        margin-right: auto;
+    max-width: 90%;
+    
+    
+    }
+    .partner-grid {display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    text-align: center;}
+    
+    .partner-logos{max-width: 90%;}
+    
+    .how-we-event-section{ padding-bottom: 5%;}
+    .we-help-event-example{margin-bottom: 2%}
 }
+
+
     
 
