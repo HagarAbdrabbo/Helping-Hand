@@ -656,4 +656,47 @@ footer {
         margin-left: auto;
         margin-right: auto;
         border: none;
-        border-radius: 6px; } }
+        border-radius: 6px; }
+    .volunteer-page-green-section a {
+      text-align: center;
+      text-decoration: none;
+      color: #60721B;
+      background-color: white;
+      display: block;
+      font-weight: bold;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 6px;
+      padding: 2%;
+      max-width: 10%; }
+
+  /*.volunteer-page {display: grid;
+  grid-template-rows: 1fr 1fr;}*/
+  .volunteer-page-info {
+    margin: 40% 5% 0 9%; }
+    .volunteer-page-info p {
+      text-align: center;
+      font-size: 1.2em;
+      line-height: 30px;
+      padding-bottom: 5%; }
+    .volunteer-page-info h2 {
+      margin: 5% 0 2% 0; }
+
+  .volunteer-why-you-join {
+    display: grid;
+    grid-template-columns: 1fr 1fr; }
+    .volunteer-why-you-join img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 70%; }
+    .volunteer-why-you-join ul {
+      margin-left: 2%;
+      font-family: 'Raleway', sans-serif;
+      margin-top: 3%; }
+      .volunteer-why-you-join ul li {
+        margin: 1%; }
+    .volunteer-why-you-join h3 {
+      font-family: 'Raleway', sans-serif;
+      font-weight: bold;
+      margin-top: 15%; } }
