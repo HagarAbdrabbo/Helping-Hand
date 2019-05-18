@@ -699,4 +699,44 @@ footer {
     .volunteer-why-you-join h3 {
       font-family: 'Raleway', sans-serif;
       font-weight: bold;
-      margin-top: 15%; } }
+      margin-top: 15%; }
+
+  .donate-page-banner {
+    position: relative;
+    width: 200%; }
+
+  .donate-page-red-section {
+    width: 60%;
+    position: absolute;
+    background-color: #801014;
+    left: 11%;
+    padding: 3% 10% 3% 10%;
+    top: 95%;
+    font-family: 'Raleway', sans-serif; }
+    .donate-page-red-section .donation-desktop-section {
+      padding: 0; }
+      .donate-page-red-section .donation-desktop-section h2 {
+        text-align: center; }
+      .donate-page-red-section .donation-desktop-section img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 4%; }
+      .donate-page-red-section .donation-desktop-section p {
+        text-align: center;
+        margin-bottom: 7%; }
+      .donate-page-red-section .donation-desktop-section a {
+        text-align: center;
+        text-decoration: none;
+        color: #801014;
+        background-color: white;
+        display: block;
+        font-weight: bold;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 6px;
+        padding: 2%;
+        max-width: 15%; }
+
+  .donte-page-padges {
+    margin-top: 40%; } }
