@@ -611,6 +611,12 @@ img {
   .how-we-event-section h2 {
     margin-bottom: 5%; }
 
+.how-we-event-section-intro {
+  display: none; }
+
+.Desktop-event-example-img {
+  display: none; }
+
 h4 a {
   color: #801014;
   font-family: 'Raleway', sans-serif;
@@ -665,7 +671,7 @@ h4 a {
         padding-right: 44.7%; }
 
   .home-page-donation-section {
-    padding: 2% 9% 2% 9%; }
+    padding: 2% 10% 2% 10%; }
     .home-page-donation-section h5 {
       font-size: 1.5em;
       font-weight: normal; }
@@ -858,4 +864,11 @@ h4 a {
     padding-bottom: 5%; }
 
   .we-help-event-example {
-    margin-bottom: 2%; } }
+    margin-bottom: 2%; }
+
+  .how-we-event-section-intro {
+    display: block;
+    text-align: center;
+    font-size: 1.3em;
+    line-height: 30px;
+    margin: 0 10% 0 10%; } }

@@ -259,11 +259,10 @@ text-align: center;
     padding-bottom: 10%;
     i {font-size: 0.7em;}
     h2 {margin-bottom: 5%;}
-    
-   
-    
+        
 }
-
+.how-we-event-section-intro {display: none;}
+.Desktop-event-example-img {display: none;}
 h4 {
         a{color: $red;
             font-family: 'Raleway', sans-serif;
@@ -336,7 +335,7 @@ h4 {
     
     
     
-    .home-page-donation-section{ padding: 2% 9% 2% 9%;
+    .home-page-donation-section{ padding: 2% 10% 2% 10%;
         h5 {font-size: 1.5em;
         font-weight: normal;}
         
@@ -547,6 +546,13 @@ grid-template-columns: 1fr 1fr;
     
     .how-we-event-section{ padding-bottom: 5%;}
     .we-help-event-example{margin-bottom: 2%}
+    .how-we-event-section-intro {display: block;
+    
+    text-align: center;
+    font-size: 1.3em;
+    line-height: 30px;
+    margin: 0 10% 0 10%;}
+
 }
 
 
