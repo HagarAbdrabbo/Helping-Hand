@@ -278,6 +278,7 @@ h4 {
 // Home page-Desktop
    
     .home-page-start {
+        img{width: 100%;}
         
         article{top:20%;}
         
@@ -306,25 +307,36 @@ h4 {
         
         h2 {
          i {display: none;}}
-    }
-    .Home-project-example {max-width: 411.5%;
-         
-        img {max-width: 200%;}
-    
-    }  
-    
-    .project-example-banner {top:59%;
-    
-    a {width: 180%;
+        
+         .projects-example {
+    display: block;
+        margin-left: auto;
+        margin-left: auto;
+        max-width: 50%;
+        
+        img {width: 100%;}
+        
+             .project-example-banner {top:61.5%;
+   
+                 p{text-align: inherit;
+                 
+                 margin-left: 3%;}
+    a {width: 100%;
         text-align: inherit;
-        padding-left: 13%;
+        padding-right: 44.7%;
         }
         
+    }      
+    
+    } 
     }
     
-    .location-sign {margin-left: 0;}
     
-    .home-page-donation-section{
+  
+    
+    
+    
+    .home-page-donation-section{ padding: 2% 9% 2% 9%;
         h5 {font-size: 1.5em;
         font-weight: normal;}
         
@@ -343,7 +355,7 @@ h4 {
     .Donation-method {display: grid;
     grid-template-columns: 1fr 1fr;
     
-    margin: 2% 9% 0 9%;}
+   }
     
     .donation-desktop-section {
         display: block;
@@ -386,39 +398,36 @@ grid-template-columns: 1fr 1fr;
 
     padding: 5%;
     margin-bottom: 3%;
+   
     label {color: $middle-gray;
-    font-size: 1.1em;}
-}
-    
-    .desktop-container {
-  display: block;
+    font-size: 1.1em;
+        display: block;
   position: relative;
     padding-left: 10%;
   cursor: pointer;
     -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
-  user-select: none;
-    
-    //Hide the browser's default radio button
-    input{position: absolute;
+  user-select: none;}
+        
+ input{position: absolute;
   opacity: 0;
   cursor: pointer;
     }
-    
-    /*Create a custom radio button
-    span{ position: fixed;
-  top: 50%;
-  right: 70%;
+        
+ span{ position: absolute;
+  top: 0;
+  right: 60%;
   height: 20px;
   width: 20px;
   background-color: $gray;
   border-radius: 50%;
-   } */
+   }
 }
-
-.D-monthly { margin-left: -25%;}
-.D-one-time {margin-left: -10%;}
+    
+   
+.D-monthly { margin-left: -27%;}
+.D-one-time {margin-left: -15%;}
 
 /* On mouse-over, add a grey background color */
 .desktop-container:hover input ~ .descktop-checkmark {

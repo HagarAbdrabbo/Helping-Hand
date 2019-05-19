@@ -619,6 +619,8 @@ h4 a {
 
 /*---------------- desktop version -------------------*/
 @media only screen and (min-width: 1200px) {
+  .home-page-start img {
+    width: 100%; }
   .home-page-start article {
     top: 20%; }
   .home-page-start p {
@@ -645,40 +647,42 @@ h4 a {
 
   .home-page-projects h2 i {
     display: none; }
+  .home-page-projects .projects-example {
+    display: block;
+    margin-left: auto;
+    margin-left: auto;
+    max-width: 50%; }
+    .home-page-projects .projects-example img {
+      width: 100%; }
+    .home-page-projects .projects-example .project-example-banner {
+      top: 61.5%; }
+      .home-page-projects .projects-example .project-example-banner p {
+        text-align: inherit;
+        margin-left: 3%; }
+      .home-page-projects .projects-example .project-example-banner a {
+        width: 100%;
+        text-align: inherit;
+        padding-right: 44.7%; }
 
-  .Home-project-example {
-    max-width: 411.5%; }
-    .Home-project-example img {
-      max-width: 200%; }
-
-  .project-example-banner {
-    top: 59%; }
-    .project-example-banner a {
-      width: 180%;
-      text-align: inherit;
-      padding-left: 13%; }
-
-  .location-sign {
-    margin-left: 0; }
-
-  .home-page-donation-section h5 {
-    font-size: 1.5em;
-    font-weight: normal; }
-  .home-page-donation-section p {
-    font-size: 1.5em;
-    font-weight: bold; }
-  .home-page-donation-section button {
-    display: none; }
-  .home-page-donation-section a {
-    background-color: white;
-    color: #801014;
-    padding: 2% 4% 2% 4%;
-    border-radius: 6px; }
+  .home-page-donation-section {
+    padding: 2% 9% 2% 9%; }
+    .home-page-donation-section h5 {
+      font-size: 1.5em;
+      font-weight: normal; }
+    .home-page-donation-section p {
+      font-size: 1.5em;
+      font-weight: bold; }
+    .home-page-donation-section button {
+      display: none; }
+    .home-page-donation-section a {
+      background-color: white;
+      color: #801014;
+      padding: 2% 4% 2% 4%;
+      border-radius: 6px; }
 
   .Donation-method {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: 2% 9% 0 9%; }
+    grid-template-columns: 1fr 1fr; }
 
   .donation-desktop-section {
     display: block;
@@ -720,36 +724,33 @@ h4 a {
     margin-bottom: 3%; }
     .D-donation-time label {
       color: #BDBDBD;
-      font-size: 1.1em; }
-
-  .desktop-container {
-    display: block;
-    position: relative;
-    padding-left: 10%;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-  /*Create a custom radio button
-  span{ position: fixed;
-top: 50%;
-right: 70%;
-height: 20px;
-width: 20px;
-background-color: $gray;
-border-radius: 50%;
- } */ }
-    .desktop-container input {
+      font-size: 1.1em;
+      display: block;
+      position: relative;
+      padding-left: 10%;
+      cursor: pointer;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none; }
+    .D-donation-time input {
       position: absolute;
       opacity: 0;
       cursor: pointer; }
+    .D-donation-time span {
+      position: absolute;
+      top: 0;
+      right: 60%;
+      height: 20px;
+      width: 20px;
+      background-color: #F3F3F3;
+      border-radius: 50%; }
 
   .D-monthly {
-    margin-left: -25%; }
+    margin-left: -27%; }
 
   .D-one-time {
-    margin-left: -10%; }
+    margin-left: -15%; }
 
   /* On mouse-over, add a grey background color */
   .desktop-container:hover input ~ .descktop-checkmark {
