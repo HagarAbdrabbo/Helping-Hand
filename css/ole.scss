@@ -3,6 +3,7 @@
 /*--- Mobile About Us page --*/
 
 .banner{position: relative;
+    margin-top: 32%;
 
     h1 {position: absolute;
         top: 80%;
@@ -124,7 +125,7 @@ text-align: center;}
 /* desktop version */
 @media only screen and (min-width:1200px) {
     
-    .banner {
+    .banner { margin-top: 0;
         h1 {top: 83%;}
         
         img {width: 100%;}

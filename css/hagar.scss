@@ -7,6 +7,7 @@ img {max-width: 100%;}
 
 .baddges-home-page {display: none;}
 .home-page-start {position: relative;
+    margin-top: 32.5%;
     article {position: absolute;
     top: 5%;
     margin: 4%;}
@@ -226,7 +227,9 @@ grid-template-columns: 0.7fr 0.1fr 3fr;
 
 //--------- Mobile How We Help Page ---------//
 
-.how-we-page-banner-section {position: relative;}
+.how-we-page-banner-section {
+    margin-top: 100%;
+    position: relative;}
 .how-page-banner-footer{display: grid;
 grid-template-columns: 1fr 1fr;
 background-color: $red;
@@ -276,7 +279,7 @@ h4 {
 @media only screen and (min-width:1200px) {
 // Home page-Desktop
    
-    .home-page-start {
+    .home-page-start { margin-top: 0;
         img{width: 100%;}
         
         article{top:20%;}
@@ -555,6 +558,6 @@ grid-template-columns: 1fr 1fr;
 
 }
 
-
+.how-we-page-banner-section {margin-top: 0;}
     
 

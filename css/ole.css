@@ -28,17 +28,19 @@ h2 {
   display: none; }
 
 .button1 {
-  background-color: #801014; }
+  background-color: #801014;
+  margin-right: 0.5%; }
 
 .button2 {
-  background-color: #60721B; }
+  background-color: #60721B;
+  margin-left: 0.5%; }
 
 .header-buttons {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   margin: 0; }
   .header-buttons button {
-    padding: 3% 16.6% 3% 16.6%;
+    padding: 6% 13% 6% 13%;
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
     text-align: center;
@@ -217,34 +219,38 @@ h2 {
   margin-left: 7%;
   margin-top: 4%; }
 
-.m-header nav {
-  display: none;
+.m-header {
   position: fixed;
-  top: 18%;
-  left: 0;
-  right: 0;
-  background-color: #F3F3F3;
-  max-width: 100%;
   z-index: 6;
-  padding: 7% 0 7% 0; }
-  .m-header nav a {
-    text-decoration: none;
-    color: black;
-    font-size: 1.2em;
-    font-family: 'Raleway', sans-serif;
-    text-align: center;
-    font-weight: bold; }
-  .m-header nav li {
-    list-style: none;
-    text-align: center;
-    padding: 2.3%; }
-  .m-header nav hr {
-    width: 70%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto; }
-.m-header nav.visible {
-  display: block; }
+  top: 0; }
+  .m-header nav {
+    display: none;
+    position: fixed;
+    top: 18%;
+    left: 0;
+    right: 0;
+    background-color: #F3F3F3;
+    max-width: 100%;
+    z-index: 6;
+    padding: 7% 0 7% 0; }
+    .m-header nav a {
+      text-decoration: none;
+      color: black;
+      font-size: 1.2em;
+      font-family: 'Raleway', sans-serif;
+      text-align: center;
+      font-weight: bold; }
+    .m-header nav li {
+      list-style: none;
+      text-align: center;
+      padding: 2.3%; }
+    .m-header nav hr {
+      width: 70%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto; }
+  .m-header nav.visible {
+    display: block; }
 
 .desktop-nav-elemnts {
   display: none; }
@@ -357,7 +363,8 @@ footer {
       padding: 2% 0 2% 0; } }
 /*--- Mobile About Us page --*/
 .banner {
-  position: relative; }
+  position: relative;
+  margin-top: 32%; }
   .banner h1 {
     position: absolute;
     top: 80%;
@@ -485,10 +492,12 @@ footer {
 
 /* desktop version */
 @media only screen and (min-width: 1200px) {
-  .banner h1 {
-    top: 83%; }
-  .banner img {
-    width: 100%; }
+  .banner {
+    margin-top: 0; }
+    .banner h1 {
+      top: 83%; }
+    .banner img {
+      width: 100%; }
 
   .badges {
     margin: 3% 20% 3% 20%; }
