@@ -1,120 +1,193 @@
 @import 'global';
 
-/*--- Mobile About Us page --*/
+// About Us page Mobile page
 
-.banner{position: relative;
+.banner {
+    position: relative;
     margin-top: 32%;
 
-    h1 {position: absolute;
+    h1 {
+        position: absolute;
         top: 80%;
         margin: 4%;
     }
 }
 
 .about-us-intro {
-    
-    ul {font-family: 'Raleway', sans-serif;
-    margin: 3% 2% 3% 7%;
-    
-        li {padding-bottom: 2%;}
+
+    ul {
+        font-family: 'Raleway', sans-serif;
+        margin: 3% 2% 3% 7%;
+
+        li {
+            padding-bottom: 2%;
+        }
     }
-    
+
 }
 
-.badges {display: grid;
-grid-template-columns: 1fr 1fr 1fr;
+.badges {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     margin: 3% 7% 3% 7%;
 
     img {
-    padding: 5%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;}
-}
-.twin-badges{max-width: 80%;
+        padding: 5%;
         display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 7%;
-}
-.profit-badge {max-width: 93%;}
-   
-.D-about-us-staff{display: none;}
-.about-us-story {
-        p {text-align: justify;
-        margin: 3%;}
-        }
-.center-h2{margin: 5% 0 0 0;
-text-align: center;
-}
-.about-us-chairman {display: grid;
-grid-template-columns: 1fr 1fr;
-margin: 5% 2% 5% 5%;
-
-    p {margin-right: 2%;}
-}
-.contact-gihad {margin-top: 9%;
-font-size: 0.9em;}
-
-.about-us-work-with {margin: 5%;
-
-    h3 {font-family: 'Raleway', sans-serif;
-    font-weight: bold;
-    margin-bottom: 3%;}
-
-}   
-
-.partner {display: grid;
-grid-template-columns: 1fr 1fr;
-margin: 10% 0 10% 0;
-    p {font-size: 0.7em;
-    color: $dark-gray;
-    text-align: center;
-    margin-top: 10%;}
-    
-    img {display: block;
-    margin-left: auto;
-    margin-right: auto;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
-.partner-img{display: none;}
-.Union-of-Health-Committee-logo{max-width: 43%;}
-.IBDAA-cultural-center-logo {max-width: 45%;}
+
+.twin-badges {
+    max-width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7%;
+}
+
+.profit-badge {
+    max-width: 93%;
+}
+
+.D-about-us-staff {
+    display: none;
+}
+
+.about-us-story {
+    p {
+        text-align: justify;
+        margin: 3%;
+    }
+}
+
+.center-h2 {
+    margin: 5% 0 0 0;
+    text-align: center;
+}
+
+.about-us-chairman {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 5% 2% 5% 5%;
+
+    p {
+        margin-right: 2%;
+    }
+}
+
+.contact-gihad {
+    margin-top: 9%;
+    font-size: 0.9em;
+}
+
+.about-us-work-with {
+    margin: 5%;
+
+    h3 {
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold;
+        margin-bottom: 3%;
+    }
+
+}
+
+.partner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 10% 0 10% 0;
+
+    p {
+        font-size: 0.7em;
+        color: $dark-gray;
+        text-align: center;
+        margin-top: 10%;
+    }
+
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.partner-img {
+    display: none;
+}
+
+.Union-of-Health-Committee-logo {
+    max-width: 43%;
+}
+
+.IBDAA-cultural-center-logo {
+    max-width: 45%;
+}
 
 
 
-//---------- M event page -------------
+// event page mobile version
 
 .event-page-intro {
-    p{margin: 5%;
-    text-align: center;}
+    p {
+        margin: 5%;
+        text-align: center;
+    }
 }
 
-.upcoming-events-intro{margin: 5%;
-text-align: center;}
+.upcoming-events-intro {
+    margin: 5%;
+    text-align: center;
+}
+
 .event-page-upcoming-events {
-    
-    margin-top:10%;}
-.Generalforsamling-event {margin-top: 15%;
+
+    margin-top: 10%;
 }
 
-.regular-event-intro{display: none;}
+.Generalforsamling-event {
+    margin-top: 15%;
+}
 
-.event-calender{display: none;}
-.D-ladies-night-img {display: none;}
-.D-football-title {display: none;}
-.quote{display: none;}
-.event-page-regular-events {margin-top: 15%;}
+.regular-event-intro {
+    display: none;
+}
+
+.event-calender {
+    display: none;
+}
+
+.D-ladies-night-img {
+    display: none;
+}
+
+.D-football-title {
+    display: none;
+}
+
+.quote {
+    display: none;
+}
+
+.event-page-regular-events {
+    margin-top: 15%;
+}
+
 .regular-event-example {
     margin-bottom: 13%;
-    
-    
-    
-    p {margin: 5%;}
-    h3 {text-align: center;
-    margin-top: 7%;
+
+
+
+    p {
+        margin: 5%;
+    }
+
+    h3 {
+        text-align: center;
+        margin-top: 7%;
         margin-bottom: 4%;
-    font-family: 'Raleway', sans-serif;}
+        font-family: 'Raleway', sans-serif;
+    }
 }
 
 
@@ -122,291 +195,444 @@ text-align: center;}
 
 
 
-/* desktop version */
+/* ----------------desktop version------------------- */
+
+
 @media only screen and (min-width:1200px) {
-    
-    .banner { margin-top: 0;
-        h1 {top: 83%;}
-        
-        img {width: 100%;}
-    }  
+
+    // Events page desktop version   
+    .banner {
+        margin-top: 0;
+
+        h1 {
+            top: 83%;
+        }
+
+        img {
+            width: 100%;
+        }
+    }
+
     .badges {
-        margin: 3% 20% 3% 20%;}
-    
-    .twin-badges{max-width: 70%}
-    .profit-badge{max-width: 80%}
-    
-    .upcoming-events-intro {font-size: 1.3em;
+        margin: 3% 20% 3% 20%;
+    }
+
+    .twin-badges {
+        max-width: 70%
+    }
+
+    .profit-badge {
+        max-width: 80%
+    }
+
+    .upcoming-events-intro {
+        font-size: 1.3em;
         line-height: 30px;
         margin: 3% 10% 3% 10%;
         text-align: center;
     }
-    
-    .events-grid {display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: 5%;}
-    
-    .events-event-example{max-width: 80%;}
-    
-    .event-calender{display: block;
-    text-decoration: none;
-    color: white;
-    background-color: $red;
-    text-align: center;
+
+    .events-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 5%;
+    }
+
+    .events-event-example {
+        max-width: 80%;
+    }
+
+    .event-calender {
+        display: block;
+        text-decoration: none;
+        color: white;
+        background-color: $red;
+        text-align: center;
         margin-left: 35%;
         margin-right: 35%;
         padding: 1.5% 0 1.5% 0;
         font-weight: bold;
         font-size: 1em;
         font-family: 'Montserrat', sans-serif;
-        
+
     }
-   
-    .event-page-regular-events{
+
+    .event-page-regular-events {
         margin-top: 0;
         padding-bottom: 5%;
     }
-    
-    .regular-event-intro{display: block;
+
+    .regular-event-intro {
+        display: block;
         font-size: 1.3em;
         line-height: 30px;
         margin: 3% 10% 3% 10%;
         text-align: center;
-        
-    }
-    
-    .M-ladies-night-img{display: none;}  
-    
-    .D-ladies-night-img{display: block;
-   }
-    
-    .regular-event-example {display: grid;
-    grid-template-columns: 1fr 1fr;
-        margin: 7% 10% 0 10%;
-    
-        h3{margin-top: 4%;}
-        
-        img{ max-width: 80%;
-    margin-left: auto;
-    margin-right: auto;}
-    }
-    
-    .regular-event-bold-text{font-weight: bold;}
-    
-    .M-football-title {display: none;}
-    .D-football-title {display: block;}
-    .Football-Tournament-img{margin-top: 10%;}
-    
-    .quote{ display: block;
-        font-weight: bold;
-    font-size: 1em;
-        font-family: 'Montserrat', sans-serif;
-    text-align: center;
-        padding-bottom: 5%;
-        
-        a{text-decoration: none;
-        color: white;
-        margin: 0% 2% 0 2%;
-        padding: 1% 4% 1% 4%;
-         border-radius: 6px;}
-    }
-    
-    .red-background {background-color: $red;}
-     .green-background {background-color: $green;}
-    .quote-p {margin: 1% 0 3% 0;}
-    
-    
-    
-    
-    
-    .about-us-banner{position: absolute;
-        top: 70%;
-    margin: 4%;
-     
-        h1{margin-top: -10%;}
-        img {margin: 45%  0 0 180%;}
-    }
-    
-    .about-us-intro {
-        margin:5% 30% 0 30%;
-        li {text-align: center;
-         }
-    }
-    
-    .D-about-us-padges{display: none;}
-    
-    .M-about-us-staff {display: none;}
-    
-    .D-about-us-staff{display: block;
-margin: 3% 10% 0 10%;
-        
-        img{max-width: 60%;}
-    }
-    
-    .about-us-chairman{
-        
-        article {margin: 3%  0 0 20%;}
-        h2 {text-align: inherit;
-        font-size: 1.7em;
-        margin: 7% 0 3% 0;}
-    }
-    
-    .gihad {font-weight: bold;
-    margin-top: 4%;}
-    
-    .partner-img{display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 80%;
-    margin-top: 3%;}
-    .partner-grid{padding: 5% 0 5% 0;}
-    
-    .about-us-story{
-        margin: 0 10% 0 10%;
-        
-        p{line-height: 27px;
-        text-align: center;}
-    }
-    
-    .about-us-quote {margin-top: -5%;}
-    .volunteer-page-banner{position: relative;}
-    .volunteer-page-green-section {max-width: 60%;
-    position: absolute;
-    background-color: $green;
-left: 20%;
-    
-    padding: 3% 0% 3% 0%;
-        margin-top: -10%;
-        top: 150%;
-    font-family: 'Raleway', sans-serif; 
 
-    h4 {color: white;
-    text-align: center;
-    font-weight: bold;
-    margin: 0 5% 3% 5%;}
-    
-    p {color: white;
-    text-align: center;
-    margin: 0 9% 7% 9%;}
-    
-    form {margin:0 9% 7% 9%;
-        input { color: $middle-gray;
-        
-        font-family: 'Raleway', sans-serif;
+    }
+
+    .M-ladies-night-img {
+        display: none;
+    }
+
+    .D-ladies-night-img {
+        display: block;
+    }
+
+    .regular-event-example {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 7% 10% 0 10%;
+
+        h3 {
+            margin-top: 4%;
+        }
+
+        img {
+            max-width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+    .regular-event-bold-text {
+        font-weight: bold;
+    }
+
+    .M-football-title {
+        display: none;
+    }
+
+    .D-football-title {
+        display: block;
+    }
+
+    .Football-Tournament-img {
+        margin-top: 10%;
+    }
+
+    .quote {
+        display: block;
+        font-weight: bold;
+        font-size: 1em;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        padding-bottom: 5%;
+
+        a {
+            text-decoration: none;
+            color: white;
+            margin: 0% 2% 0 2%;
+            padding: 1% 4% 1% 4%;
+            border-radius: 6px;
+        }
+    }
+
+    .red-background {
+        background-color: $red;
+    }
+
+    .green-background {
+        background-color: $green;
+    }
+
+    .quote-p {
+        margin: 1% 0 3% 0;
+    }
+
+
+    // Aout us page desktop version 
+
+
+    .about-us-banner {
+        position: absolute;
+        top: 70%;
+        margin: 4%;
+
+        h1 {
+            margin-top: -10%;
+        }
+
+        img {
+            margin: 45% 0 0 180%;
+        }
+    }
+
+    .about-us-intro {
+        margin: 5% 30% 0 30%;
+
+        li {
+            text-align: center;
+        }
+    }
+
+    .D-about-us-padges {
+        display: none;
+    }
+
+    .M-about-us-staff {
+        display: none;
+    }
+
+    .D-about-us-staff {
+        display: block;
+        margin: 3% 10% 0 10%;
+
+        img {
+            max-width: 60%;
+        }
+    }
+
+    .about-us-chairman {
+
+        article {
+            margin: 3% 0 0 20%;
+        }
+
+        h2 {
+            text-align: inherit;
+            font-size: 1.7em;
+            margin: 7% 0 3% 0;
+        }
+    }
+
+    .gihad {
+        font-weight: bold;
+        margin-top: 4%;
+    }
+
+    .partner-img {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        border:none;
-            border-radius: 6px;}
+        max-width: 80%;
+        margin-top: 3%;
+    }
+
+    .partner-grid {
+        padding: 5% 0 5% 0;
+    }
+
+    .about-us-story {
+        margin: 0 10% 0 10%;
+
+        p {
+            line-height: 27px;
+            text-align: center;
         }
-        
-        a {text-align: center;
-      text-decoration: none;
-        color: $green;
-        background-color:white; 
-   display: block;
+    }
+
+    .about-us-quote {
+        margin-top: -5%;
+    }
+
+    .volunteer-page-banner {
+        position: relative;
+    }
+
+    .volunteer-page-green-section {
+        max-width: 60%;
+        position: absolute;
+        background-color: $green;
+        left: 20%;
+
+        padding: 3% 0% 3% 0%;
+        margin-top: -10%;
+        top: 150%;
+        font-family: 'Raleway', sans-serif;
+
+        h4 {
+            color: white;
+            text-align: center;
+            font-weight: bold;
+            margin: 0 5% 3% 5%;
+        }
+
+        p {
+            color: white;
+            text-align: center;
+            margin: 0 9% 7% 9%;
+        }
+
+        form {
+            margin: 0 9% 7% 9%;
+
+            input {
+                color: $middle-gray;
+
+                font-family: 'Raleway', sans-serif;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                border: none;
+                border-radius: 6px;
+            }
+        }
+
+        a {
+            text-align: center;
+            text-decoration: none;
+            color: $green;
+            background-color: white;
+            display: block;
             font-weight: bold;
             margin-left: auto;
             margin-right: auto;
             border-radius: 6px;
-        padding: 2%;
-        max-width: 10%;}
-}
+            padding: 2%;
+            max-width: 10%;
+        }
+    }
+
     /*.volunteer-page {display: grid;
     grid-template-rows: 1fr 1fr;}*/
-    .volunteer-page-banner{width: 100%;}
-    .volunteer-page-info{
-    margin: 40% 5% 0 9%;
-        p {text-align: center;
+    .volunteer-page-banner {
+        width: 100%;
+    }
+
+    .volunteer-page-info {
+        margin: 40% 5% 0 9%;
+
+        p {
+            text-align: center;
             font-size: 1.2em;
             line-height: 30px;
             padding-bottom: 5%;
         }
-        h2 {margin: 5% 0 2% 0;}
-    }
-   
-    .volunteer-why-you-join{display: grid;
-    grid-template-columns: 1fr 1fr;
-    
-    
-        img{display: block;
-        margin-left: auto;
-        margin-right: auto;
-        max-width: 70%;}
-        
-        ul { margin-left: 2%;
-            font-family: 'Raleway', sans-serif;
-            margin-top: 3%;
-        
-            li {margin: 1%;}
-        }
-        
-        h3 {font-family: 'Raleway', sans-serif;
-        font-weight: bold;
-        margin-top: 15%;}
-    
-    }
-    
-    .donate-page-banner{position: relative;
-    width: 200%;}
-    .donate-page-red-section{
-        
-        width: 60%;
-    position: absolute;
-    background-color: $red;
-       left: 11%;
-    
-    padding: 3% 10% 3% 10%;
-        top: 140%;
-    font-family: 'Raleway', sans-serif;  }
 
-        .donation-desktop-section{padding: 0;
-        max-width: 100%;
-            h2 {text-align: center;}
-            
-            img {display: block;
+        h2 {
+            margin: 5% 0 2% 0;
+        }
+    }
+
+    .volunteer-why-you-join {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+
+        img {
+            display: block;
             margin-left: auto;
             margin-right: auto;
-            margin-bottom: 4%;}
-            
-            p {text-align: center;
-            margin-bottom: 7%;}
-            
-            a {text-align: center;
-      text-decoration: none;
-        color: $red;
-        background-color:white; 
-   
-            font-weight: bold;
-           
-            border-radius: 6px;
-        padding: 4% 7% 4% 7%;
-        max-width: 60%;}
-            
-            form {margin: 3% 0% 3% 0%;
-                input {margin: 0 5% 0 5%;
-                color: $middle-gray;}
-            
+            max-width: 70%;
+        }
+
+        ul {
+            margin-left: 2%;
+            font-family: 'Raleway', sans-serif;
+            margin-top: 3%;
+
+            li {
+                margin: 1%;
             }
         }
-    .donation-amounts {
-        p {font-weight: bold;}
+
+        h3 {
+            font-family: 'Raleway', sans-serif;
+            font-weight: bold;
+            margin-top: 15%;
+        }
+
     }
-    .form-equal-grid{display: grid;
-    grid-template-columns: 1fr 1fr;}
+
+    // donate page desktop version
     
-     .form-double-grid{display: grid;
-    grid-template-columns: 2fr 1fr;
+    .donate-page-banner {
+        position: relative;
+        width: 200%;
+    }
+
+    .donate-page-red-section {
+
+        width: 60%;
+        position: absolute;
+        background-color: $red;
+        left: 11%;
+
+        padding: 3% 10% 3% 10%;
+        top: 140%;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .donation-desktop-section {
+        padding: 0;
+        max-width: 100%;
+
+        h2 {
+            text-align: center;
+        }
+
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 4%;
+        }
+
+        p {
+            text-align: center;
+            margin-bottom: 7%;
+        }
+
+        a {
+            text-align: center;
+            text-decoration: none;
+            color: $red;
+            background-color: white;
+
+            font-weight: bold;
+
+            border-radius: 6px;
+            padding: 4% 7% 4% 7%;
+            max-width: 60%;
+        }
+
+        form {
+            margin: 3% 0% 3% 0%;
+
+            input {
+                margin: 0 5% 0 5%;
+                color: $middle-gray;
+            }
+
+        }
+    }
+
+    .donation-amounts {
+        p {
+            font-weight: bold;
+        }
+    }
     
-         input {margin: 0 5% 0 20%;}}
-    
-    .support-p {color: white;
-    font-weight: bold;
-    margin-top: 7%;}
-    
-    .support-method{display: grid;
-    grid-template-columns: 1fr 1fr;
-        margin-left:10%;
- }
-    .donte-page-padges {margin-top: 60%;}
+    // volunteer page desktop version
+
+    .form-equal-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .form-double-grid {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+
+        input {
+            margin: 0 5% 0 20%;
+        }
+    }
+
+    .support-p {
+        color: white;
+        font-weight: bold;
+        margin-top: 7%;
+    }
+
+    .support-method {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-left: 10%;
+    }
+
+    .donte-page-padges {
+        margin-top: 60%;
+    }
 }
