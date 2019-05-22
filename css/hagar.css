@@ -361,7 +361,6 @@ footer {
     margin: 15% 0 0 15%; }
     .footer-contact-info li {
       padding: 2% 0 2% 0; } }
-/*-- Mobile home page --*/
 img {
   max-width: 100%; }
 
@@ -381,17 +380,16 @@ img {
     margin: 5% 0 5% 0;
     -webkit-text-stroke: 0.1px black;
     text-shadow: 0.5px 0.5px black; }
-  .home-page-start button {
-    border: none;
+  .home-page-start a {
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
     padding: 3% 8% 3% 8%;
     background-color: #801014;
     text-align: center;
-    margin: 20% 0% 2% 38%; }
-    .home-page-start button a {
-      text-decoration: none;
-      color: white;
-      font-size: 0.8em;
-      font-weight: bold; }
+    left: 4%;
+    border-radius: 5px; }
 
 .logo-without-hand {
   max-width: 50%;
@@ -647,7 +645,7 @@ h4 a {
 
   .baddges-home-page {
     display: block;
-    margin: 28%  0 0 120%;
+    margin: 28% 0 0 120%;
     max-width: 60%; }
 
   .logo-without-hand {
